@@ -1,0 +1,105 @@
+/*box sizing settings*/
+* {
+  box-sizing:border-box;
+}
+
+/*color references*/
+:root{
+  --black:black;
+  --bisque:bisque;
+  --dblue:#152238;
+  --aqua:aqua;
+}
+
+/*box and text settings for body*/
+body{
+  margin:0;
+  padding:0;
+  color:var(--black);
+  background-color:var(--bisque);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height:1.5;
+}
+
+header{
+  padding: 20px 5% 20px 0;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  align-items:center; 
+  background-color:var(--dblue);
+  color:var(--black);
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-size:150%;
+}
+
+header h1{
+  box-sizing:border-box;
+  padding:0;
+  width:600px;
+  background-color:var(--aqua);
+  text-align:right;
+  font-size:400%;
+}
+
+header nav{
+
+}
+
+nav:hover a{
+
+}
+
+.subtitle {
+  
+}
+
+.info{
+
+}
+
+.info #about-me {
+
+}
+
+.info #work{
+
+}
+
+#work #first-image{
+
+}
+
+#work .img-rest{
+
+}
+
+.info #contact-me {
+
+}
+
+.info #contact-me {
+  
+}
+
+#work #first-image:hover first-img{
+
+}
+
+#work #img-rest:hover img-rest{
+  
+}
+
+#contact-me nav{
+
+}
+
+#contact-me nav:hover a{
+
+}
+
+
+
