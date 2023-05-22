@@ -87,44 +87,55 @@ header nav #resume:hover{
   color:var(--dblue);
 }
 
-
-.info{
-  margin: 20px 0;
-  padding: 5px 0;
+main .info{
+  width:85%;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-.info #about-me {
+.info-sections {
+  margin:10px 0;
+  padding:10px 0;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.info-sections > h3 {
+  flex:0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  border-right: 4px solid var(--dblue);
+  font-size: 70px;
+  line-height: 1.2;
+  color:var(--dblue) 
+}
+
+.info-sections div{
+  flex:0 0 78%;
+}
+
+.info-sections p {
+  margin-bottom:10px;
+}
+
+.info-sections #about-me {
   padding-bottom:30px;
 }
 
-.info #about-me h3{
-  box-sizing:border-box;
-  padding-right:10px;
-  width:600px;
-  text-align:right;
-  font-size:60px;
-  color:var(--dblue);
-  border-right:5px solid var(--dblue);
-}
 
-.info #work{
-  border-bottom:10px;
-}
-
-.info #work h3{
-  box-sizing:border-box;
-  padding: 10px;
-  width:600px;
-  text-align:right;
-  font-size:60px;
-  color:var(--dblue);
-  border-right:5px solid var(--dblue);
-}
-
-.info .images{
+.info-sections .images{
   display:flex;
   flex-direction:column;
   flex-wrap:wrap;
+  align-items:flex-end;
+  justify-content:center;
+}
+
+#work > .images{
+  
 }
 
 .info #work #first-image{
@@ -136,22 +147,7 @@ header nav #resume:hover{
 }
 
 #contact-me > div {
-  flex: 0 0 56%;
-}
-
-.info #contact-me {
-  display:flex;
-  justify-content:space-evenly;
-}
-
-.info #contact-me h3{
-  box-sizing:border-box;
-  padding:10px;
-  width:600px;
-  text-align:right;
-  font-size:60px;
-  color:var(--dblue);
-  border-right:5px solid var(--dblue);
+  flex: 0 0 67.75%;
 }
 
 #work #first-image:hover first-img{
@@ -162,13 +158,11 @@ header nav #resume:hover{
 
 }
 
-
-
-#contact-me address{
+.info-sections address{
   display:flex;
-  flex-wrap: wrap;
-  justify-content:space-evenly;
+  flex-direction:row;
   align-items:center;
+  justify-content: space-around;
   height:100%;
 }
 
