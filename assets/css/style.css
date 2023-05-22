@@ -29,11 +29,12 @@ header{
   flex-wrap:wrap;
   align-items:center; 
   background-color:var(--dblue);
-  color:var(--black);
+  color:var(--aqua); 
 }
 
 h1,h2,h3,h4,h5,h6{
-  font-size:150%;
+  font-size:250%;
+  color:var(--black);
 }
 
 header h1{
@@ -42,47 +43,115 @@ header h1{
   width:600px;
   background-color:var(--aqua);
   text-align:right;
-  font-size:400%;
+  font-size:80px;
+  color:var(--dblue);
 }
 
-header nav{
-
+header nav a{
+  text-decoration:none;
+  color:palevioletred;
+  border-bottom:2px solid var(--aqua);
 }
 
-nav:hover a{
-
+header nav #nav-about:hover {
+  background-color:var(--aqua);
 }
 
-.subtitle {
-  
+header nav #nav-work:hover{
+  background-color:var(--aqua);
 }
+
+header nav #nav-contact:hover{
+  background-color:var(--aqua);
+}
+
+header nav #resume:hover{
+  background-color:var(--aqua);
+}
+
+.subtitle-image{
+  position:relative;
+}
+
+.subtitle img{
+  box-sizing:border-box;
+  height:300px;
+  width:100%;
+}
+
+.subtitle .bottom-right-text{
+  position:absolute;
+  background-color:var(--aqua);
+  bottom:40px;
+  right:200px;
+  color:var(--dblue);
+}
+
 
 .info{
-
+  margin: 20px 0;
+  padding: 5px 0;
 }
 
 .info #about-me {
+  padding-bottom:30px;
+}
 
+.info #about-me h3{
+  box-sizing:border-box;
+  padding-right:10px;
+  width:600px;
+  text-align:right;
+  font-size:60px;
+  color:var(--dblue);
+  border-right:5px solid var(--dblue);
 }
 
 .info #work{
-
+  border-bottom:10px;
 }
 
-#work #first-image{
+.info #work h3{
+  box-sizing:border-box;
+  padding: 10px;
+  width:600px;
+  text-align:right;
+  font-size:60px;
+  color:var(--dblue);
+  border-right:5px solid var(--dblue);
+}
 
+.info .images{
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+}
+
+.info #work #first-image{
+  
 }
 
 #work .img-rest{
 
 }
 
-.info #contact-me {
-
+#contact-me > div {
+  flex: 0 0 56%;
 }
 
 .info #contact-me {
-  
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.info #contact-me h3{
+  box-sizing:border-box;
+  padding:10px;
+  width:600px;
+  text-align:right;
+  font-size:60px;
+  color:var(--dblue);
+  border-right:5px solid var(--dblue);
 }
 
 #work #first-image:hover first-img{
@@ -90,15 +159,27 @@ nav:hover a{
 }
 
 #work #img-rest:hover img-rest{
-  
-}
-
-#contact-me nav{
 
 }
 
-#contact-me nav:hover a{
 
+
+#contact-me address{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+  align-items:center;
+  height:100%;
+}
+
+#contact-me a{
+  text-decoration:none;
+  color:var(--dblue);
+  border-bottom: 2px solid var(--dblue); 
+}
+
+#contact-me a:hover {
+  background-color:white;
 }
 
 
