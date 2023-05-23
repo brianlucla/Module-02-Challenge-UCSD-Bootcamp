@@ -17,7 +17,7 @@ The header has links to the applicant's contact and links to the following secti
 
 ## Credits
 
-N/A
+I received help from TA's on formatting the images in the work section, specifically in #first-image and .img-rest.
 
 ## License
 
@@ -26,3 +26,7 @@ Please refer to the license provided in the Github Repository
 ---
 
 ## Screenshot and Link
+png![screenshot](assets/images/module02-screenshot.png)
+
+https://brianlucla.github.io/Module-02-Challenge-UCSD-Bootcamp/
+
