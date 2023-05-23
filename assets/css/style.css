@@ -21,6 +21,7 @@ body{
   line-height:1.5;
 }
 
+/* header settings */
 header{
   padding: 20px 5% 20px 0;
   display:flex;
@@ -32,11 +33,13 @@ header{
   color:var(--aqua); 
 }
 
+/* text settings for default headers */
 h1,h2,h3,h4,h5,h6{
   font-size:250%;
   color:var(--black);
 }
 
+/* Custom settings for h1 */
 header h1{
   box-sizing:border-box;
   padding:0;
@@ -47,6 +50,7 @@ header h1{
   color:var(--dblue);
 }
 
+/* Styling for section links and resume link */
 header nav a{
   text-decoration:none;
   color:palevioletred;
@@ -61,21 +65,25 @@ header nav a{
   -o-transition: all 0.25s ease-in;
 }
 
+/* Pseudo Class for hovering header links */
 header a:hover {
   background-size:100% 100%;
   color:var(--dblue);
 }
 
+/* Positioning for the image under the header */
 .subtitle-image{
   position:relative;
 }
 
+/* formatting for the image under the header */
 .subtitle img{
   box-sizing:border-box;
   height:300px;
   width:100%;
 }
 
+/* Formatting and styling for the image subtitle */
 .subtitle .bottom-right-text{
   position:absolute;
   background-color:var(--aqua);
@@ -84,12 +92,14 @@ header a:hover {
   color:var(--dblue);
 }
 
+/* main box settings */
 main .info{
   width:85%;
   margin-left:auto;
   margin-right:auto;
 }
 
+/* info section formatting */
 .info-sections {
   margin:10px 0;
   padding:10px 0;
@@ -100,6 +110,7 @@ main .info{
   justify-content:space-between;
 }
 
+/* info section header settings and styling */
 .info-sections > h3 {
   flex:0 0 20%;
   text-align: right;
@@ -109,26 +120,24 @@ main .info{
   color:var(--dblue) 
 }
 
+/* info section image container "div" settings */
 .info-sections div{
   flex:0 0 78%;
   padding-left:20px;
   border-left:4px solid var(--dblue);
 }
 
+/* info section paragraph box settings */
 .info-sections p {
   margin-bottom:10px;
 }
 
+/* about-me box settings */
 .info-sections #about-me {
   padding-bottom:30px;
 }
 
-.big-figure{
-  display:flex;
-  flex-direction:column;
-  align-content: center;
-}
-
+/* all images container display settings */
 .image-box{
   display:flex;
   flex-direction:column;
@@ -136,15 +145,15 @@ main .info{
   text-align:center;
 }
 
-
-.info-sections .img-rest{
-  position:relative;
-  border:10px solid lightblue;
-  padding: 5px;
-  width:600px;
-  height:400px;
+/* first image container formatting and display settings */
+.big-figure{
+  display:flex;
+  flex-direction:column;
+  align-content: center;
+  padding-bottom:10px;
 }
 
+/* formatting for the first image */
 .info-sections #first-image{
   position:relative;
   padding:5px;
@@ -155,25 +164,32 @@ main .info{
   height:600px;
 }
 
+/* formatting and styling for the rest of the images */
+.info-sections .img-rest{
+  position:relative;
+  border:10px solid lightblue;
+  padding: 5px;
+  width:600px;
+  height:400px;
+}
+
+/* formatting for the figcaptions in the work section */
 .no-border{
   border-left:none;
   padding-bottom:20px;
 }
 
-.image-box h4{
-  font-size:medium;
-  color:var(--dblue);
-  background-color:var(--aqua);
-}
-
+/* Pseudo class for hover on work section images */
 .image-box img:hover {
   background-color:var(--dblue);
 }
 
+/* container settings for contact section */
 #contact-me div{
   height:150px;
 }
 
+/* formatting for link parent container  */
 .info-sections address{
   display:flex;
   flex-direction:row;
@@ -182,6 +198,7 @@ main .info{
   height:100%;
 }
 
+/* settings for links in contact section */
 #contact-me a{
   text-decoration:none;
   color:var(--dblue);
@@ -197,11 +214,13 @@ main .info{
   -o-transition: all 0.25s ease-in; 
 }
 
+/* Psuedo class for hovering over links in contact section */
 #contact-me a:hover {
   background-size:100% 100%;
   color:var(--aqua);
 }
 
+/* different settings for screens less than 950px in width */
 @media screen and (max-width:950px){
 
   header h1 {
@@ -238,7 +257,5 @@ main .info{
 
 
 
-@media screen and (max-width:640px){
-  
-}
+
 
