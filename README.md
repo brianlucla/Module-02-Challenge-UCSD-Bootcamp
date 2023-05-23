@@ -26,7 +26,7 @@ Please refer to the license provided in the Github Repository
 ---
 
 ## Screenshot and Link
-png![screenshot](assets/images/module02-screenshot.png)
+![screenshot](assets/images/module02-screenshot.png)
 
 https://brianlucla.github.io/Module-02-Challenge-UCSD-Bootcamp/
 
